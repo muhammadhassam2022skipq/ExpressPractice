@@ -220,12 +220,11 @@
         <div class="form-section">
             <img src="/images/contactus.jpg" alt="Contact-Us">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nihil sit libero.</p>
-            <p>Points to be noted</p>
+            <!-- <p>Points to be noted</p> -->
             <ol>
-                <li>Point is to add story</li>
-                <li>Point is to add story</li>
-                <li>Point is to add story</li>
-                <li>Point is to add story</li>
+                <% for (var person of people) { %>
+                <li><%= person.name %>  <%- person.age %></li>
+                <% } %>
             </ol>
         </div>
     </secion>
