@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 1.188rem;
+}
+
+li {
+    font-size: 1.188rem;
+}
+
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Keeping everything to the center of the page with standards */
+.centre {
+    width: 70%;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+/*styling navigation bar*/
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar {
+    margin-left: auto;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.188rem;
+    margin: 10px;
+}
+
+.nav-bar li a:hover {
+    background-color: #07d22f;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* Designing the image section */
+
+.img-section {
+    padding: 140px;
+    background-image: url("/images/banner.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.img-section div {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-section h1 {
+    font-size: 3.125rem;
+    margin-bottom: 10px;
+}
+
+/* Desiging the heading section */
+
+.heading h1 {
+    margin-bottom: 15px;
+}
+
+/* Designing the button */
+.btn {
+    text-decoration: none;
+    width: 150px;
+    background: #07d22f;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    line-height: 25px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* Designing the services section */
+.services {
+    display: flex;
+}
+
+.services .serviesdescription {
+    width: 24%;
+    margin: 10px;
+}
+
+.services p,
+h3 {
+    text-align: left;
+}
+
+.services h3 {
+    margin: 20px 0px;
+}
+
+.services .serviesdescription img {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.center {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Designing the about us section */
+.about {
+    display: flex;
+    text-align: left;
+}
+
+.about h4 {
+    font-weight: lighter;
+    margin: 50px 0px 20px 0px;
+}
+
+.about h1 {
+    padding-right: 250px;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: rgb(119, 118, 118);
+    margin-bottom: 35px;
+    padding-right: 50px;
+}
+
+.about div {
+    display: flex;
+    flex-direction: column;
+}
+
+.about a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 3px;
+    width: 250px;
+}
+
+.about-img img {
+    height: 450px;
+}
+
+/* Desiging the question section */
+.question {
+    background-image: url(/images/qurestions-banner.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 180px 120px;
+}
+
+.question-btn {
+    color: black;
+    margin: auto;
+    padding: 15px;
+    border: 2px solid gray;
+    background-color: rgb(255, 247, 21);
+    text-align: center;
+    border-radius: 3px;
+    width: 250px;
+}
+
+.question-btn a {
+    text-decoration: none;
+}
+
+.question h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.question p {
+    padding: 10px 160px 10px 115px;
+    margin-bottom: 20px;
+}
+
+
+/* Desiging the table section */
+.table {
+    text-align: left;
+}
+
+th {
+
+    background-color: rgba(228, 228, 234, 0.967);
+    border-bottom: 2px solid #000;
+}
+
+.table h3,
+p {
+    margin: 15px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr,
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+table td,
+th {
+    text-align: left;
+    padding: 15px;
+}
+
+
+/* Desiging the form section */
+.form {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.input,
+select {
+    width: 500px;
+    height: 40px;
+}
+
+.form-heading {
+    margin: 0 auto;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+form label {
+    margin: 15px 0 10px 0;
+}
+
+form span {
+    margin-top: 10px;
+}
+
+form span input {
+    margin: 15px 0 10px 0;
+}
+
+form span span {
+    margin-right: 15px;
+}
+
+.form-section {
+    padding: 20px;
+    background-color: rgba(228, 228, 234, 0.967);
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.form-section img {
+    padding-top: 20px;
+}
+
+.form-section ol li {
+    margin: 0 0 15px 20px;
+}
+
+.form-section img {
+    width: 100%;
+}
+
+/* Designing contact us section */
+
+.contact-us {
+    background-color: rgba(228, 228, 234, 0.967);
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-detail {
+    margin: 50px auto;
+    width: 70%;
+}
+
+/* Designing the footer */
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0px;
+}
